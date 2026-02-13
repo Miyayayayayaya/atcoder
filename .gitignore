@@ -1,0 +1,28 @@
+# 実行ファイル (Compiled Object files)
+*.slo
+*.lo
+*.o
+*.obj
+
+# プリコンパイル済みヘッダー (Precompiled Headers)
+*.gch
+*.pch
+
+# コンパイル済みの実行ファイル (Compiled Dynamic libraries)
+*.so
+*.dylib
+*.dll
+
+# Fortranの中間ファイル（混在する場合用）
+*.mod
+*.smod
+
+# 実行バイナリ (Executables)
+*.exe
+*.out
+*.app
+
+# VS Codeの設定や一時ファイル
+.vscode/
+*.swp
+*~
