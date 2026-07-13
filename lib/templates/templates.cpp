@@ -2,7 +2,7 @@
 using namespace std;
 int main() {}
 
-// vector<int> h(i)
+// vector<int> h(i)S
 // vevtor<string> h(i)
 // cin >> h[i]
 
@@ -15,3 +15,7 @@ int main() {}
 // itrEnd = h.end(); 末尾要素の次を示すイテレータを取得
 // ++itrBegin; 先頭要素を示すイテレータを1つ進める
 // --itrEnd; 末尾要素を示すイテレータを1つ戻す
+// #define rep(i, a, b) for (int i = a; i < b; ++i)
+// rep(カウンタ変数,初期値,条件(未満))
+// sort(並び替えたい範囲の先頭, 並び替えたい範囲の末尾（の次）, 並び替えのルール)
+// 並び替えのルール-->greater<int>() で降順、less<int>() で昇順
