@@ -18,4 +18,5 @@ int main() {}
 // #define rep(i, a, b) for (int i = a; i < b; ++i)
 // rep(カウンタ変数,初期値,条件(未満))
 // sort(並び替えたい範囲の先頭, 並び替えたい範囲の末尾（の次）, 並び替えのルール)
+// sort(A, A + N, greater<int>()); Aはlist Nが要素数 greater<int>()は降順に並び替える
 // 並び替えのルール-->greater<int>() で降順、less<int>() で昇順
